@@ -26,7 +26,7 @@ public class RootConfig {
 	    HikariDataSource ds = new HikariDataSource(hikariConfig);
 	    return ds; // 자:커넥션 ds 넘겨주기
 	}
-	
+	// 안녕하세요 테스트중 입니다
 	
 	@Bean
 	public SqlSessionFactory sessionFactory() throws Exception{
