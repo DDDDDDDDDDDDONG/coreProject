@@ -48,7 +48,8 @@ public interface BoardMapper {
 
 	public List<Reply> replyList(int idx);
 
-	public void join(Member vo);
+	// 이름 겹쳐 주석처리 
+	// public void join(Member vo);
 
 	public Member login(Member vo);
 	

@@ -27,7 +27,7 @@ public class RootConfig {
 	    return ds; // 자:커넥션 ds 넘겨주기
 	}
 	// 안녕하세요 테스트중 입니다
-	
+	// 자영 : 로그인 잘 됐는지 commit해볼게요(240322 15:56)
 	@Bean
 	public SqlSessionFactory sessionFactory() throws Exception{
 		SqlSessionFactoryBean sf = new SqlSessionFactoryBean();

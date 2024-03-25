@@ -124,19 +124,19 @@ public class BoardController {
 	} 
 	
 	
-	
-	@RequestMapping("/join.do")
-	public String join(Member vo) {
-		
-		
-		String enPW = pwEnc.encode(vo.getPw());//자:암호화된 pw//pwEnc가 암호화해줌
-		vo.setPw(enPW); //자:암호화된 비밀번호를 원래 비밀번호에 넣어주기
-		
-		
-		mapper.join(vo);
-		//return "main"; //회원가입시 join.do url에 남음
-		return "redirect:/";
-	}
+// 이름 겹쳐 주석처리
+//	@RequestMapping("/join.do")
+//	public String join(Member vo) {
+//		
+//		
+//		String enPW = pwEnc.encode(vo.getPw());//자:암호화된 pw//pwEnc가 암호화해줌
+//		vo.setPw(enPW); //자:암호화된 비밀번호를 원래 비밀번호에 넣어주기
+//		
+//		
+//		mapper.join(vo);
+//		//return "main"; //회원가입시 join.do url에 남음
+//		return "redirect:/";
+//	}  
 	
 	
 	@RequestMapping("/loginForm.do")
