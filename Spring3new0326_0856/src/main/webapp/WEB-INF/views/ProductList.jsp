@@ -20,6 +20,7 @@
 
 	<div class="container">
 		<h2>ProductList.jsp</h2>
+		
 		<div class="panel panel-default">
 			<div class="panel-heading">ProductList</div>
 			<div class="panel-body">
